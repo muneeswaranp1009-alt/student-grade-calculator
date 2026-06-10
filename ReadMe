@@ -1,0 +1,104 @@
+# Student Grade Calculator
+
+A beginner-friendly Python project that calculates a student's average marks and assigns a grade based on the calculated average.
+
+##  Features
+
+- Accepts student name as input
+- Takes marks for English, Tamil, and Mathematics
+- Calculates the average score
+- Assigns grades automatically
+- Displays pass/fail status
+
+---
+
+## Technologies Used
+
+- Python 3
+
+---
+
+## Project Structure
+
+```
+student-grade-calculator/
+│
+├── grade_calculator.py
+└── README.md
+```
+
+---
+
+## How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/student-grade-calculator.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd student-grade-calculator
+```
+
+3. Run the program
+
+```bash
+python grade_calculator.py
+```
+
+---
+
+## Sample Output
+
+```
+Enter the Student Name: John
+Enter the English mark: 85
+Enter the Tamil mark: 90
+Enter the Maths mark: 95
+
+The average mark of John is: 90.00
+Grade is A
+```
+
+---
+
+##  Grading Criteria
+
+| Average Marks | Grade |
+|--------------|-------|
+| 90 and above | A |
+| 75 - 89 | B |
+| 50 - 74 | C |
+| 35 - 49 | Pass |
+| Below 35 | Fail |
+
+---
+
+## Learning Objectives
+
+- User Input Handling
+- Variables and Data Types
+- Arithmetic Operations
+- Conditional Statements (`if`, `elif`, `else`)
+- Formatted Output using f-strings
+
+---
+
+##  Future Improvements
+
+- Add more subjects
+- Calculate total marks
+- Display percentage
+- Save results to a file
+- Create a graphical interface using Tkinter
+
+---
+
+##  Author
+
+Built as a beginner Python project to practice programming fundamentals.
+
+⭐ If you like this project, consider giving it a star!
